@@ -5,7 +5,7 @@ import Router from "next/router";
 import Cookie from "js-cookie";
 import axios from "axios";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://localhost:1337";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://real-backend-da17865723a2.herokuapp.com/";
 
 //register a new user
 export const registerUser = (username, email, password) => {
