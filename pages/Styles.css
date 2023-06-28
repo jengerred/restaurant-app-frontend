@@ -1,0 +1,26 @@
+.cards {
+       margin: 0rem .5rem 20px 0.5rem;
+        height: 100%
+}
+.cards:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px 0 grey;
+}
+.shadow {
+        margin-top: 40px;
+}
+.shadow:hover {
+        box-shadow: 0 10px 20px 0 grey;
+}
+
+.paper:hover {
+        box-shadow: 0 10px 20px 0 grey;
+}
+
+.nav-link:hover {
+     
+        box-shadow: 0 2.5px 5px 1.5px whitesmoke;
+        border-radius: 15rem;
+        background-color:#388d96;
+
+}
