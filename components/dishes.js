@@ -60,7 +60,7 @@ const GET_RESTAURANT_DISHES = gql`
                 <CardImg
                   top={true}
                   style={{ height: 200 }}
-                  src={`https://real-backend-da17865723a2.herokuapp.com/${res.image.url}`}
+                  src={`https://restaurant-app-backend-iota.vercel.app//${res.image.url}`}
                 />
                 <CardBody>
                   <CardTitle style={{ fontWeight: 'bold', fontSize: '20px' }}>{res.name}</CardTitle>

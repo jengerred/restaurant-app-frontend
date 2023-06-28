@@ -1,7 +1,7 @@
 {
   "name": "restaurant-app",
   "version": "0.1.0",
-  "proxy": "https://real-backend-da17865723a2.herokuapp.com/",
+  "proxy": "https://localhost:1337",
   "private": true,
   "scripts": {
     "dev": "next dev",

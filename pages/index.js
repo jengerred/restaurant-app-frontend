@@ -7,7 +7,7 @@ import { InputGroup, InputGroupAddon,Input} from "reactstrap";
 
 
 function Home() {
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://real-backend-da17865723a2.herokuapp.com/";
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://restaurant-app-backend-iota.vercel.app/";
     console.log(`URL: ${API_URL}`)
     const [query, setQuery] = useState("");
     const link = new HttpLink({ uri: `${API_URL}/graphql`})
