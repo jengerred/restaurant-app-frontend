@@ -58,7 +58,7 @@ if(searchQuery.length > 0){
           top={true}
           style={{ height: 200 }}
           src={
-          `https://restaurant-app-backend-iota.vercel.app/`+ res.image.url
+          `https://localhost:1337`+ res.image.url
           }
         />
         <CardBody>
