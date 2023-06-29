@@ -54,11 +54,13 @@ if(searchQuery.length > 0){
   const restList = searchQuery.map((res) => (
     <Col xs="6" sm="4" key={res.id} style={{marginTop: "2rem"}}>
       <Card className="cards" style={{ margin: "0rem .5rem 20px 0.5rem", height: "100%"}} >
-        <CardImg
+      <CardImg
           top={true}
           style={{ height: 200 }}
           src={
-          `https://localhost:1337`+ res.image.url
+          
+            `https://real-backend-da17865723a2.herokuapp.com/`+ res.image
+        
           }
         />
         <CardBody>
