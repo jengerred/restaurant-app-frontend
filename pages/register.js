@@ -105,7 +105,7 @@ const Register = () => {
                           })
                           .catch((error) => {
                             console.log(`error in register: ${error}`)
-                            //setError(error.response.data);
+                          
                             setLoading(false);
                           });
                       }}

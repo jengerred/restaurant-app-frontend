@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Row, Col } from "reactstrap";
-import Cart from "../components/cart"
 import {ApolloProvider,ApolloClient,HttpLink, InMemoryCache} from '@apollo/client';
 import RestaurantList from '../components/restaurantList';
 import { InputGroup, InputGroupAddon,Input} from "reactstrap";
@@ -37,8 +35,3 @@ function Home() {
   export default Home;
   
 
-  /*
-    <Row>
-            <Cart> </Cart>
-            </Row>
-            */

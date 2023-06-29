@@ -99,8 +99,6 @@ function Login(props) {
                        
                           })
                           .catch((error) => {
-                             //setError();
-                             //setError("");
                             setLoading(false);
                           });
                       }}

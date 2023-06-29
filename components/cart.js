@@ -9,9 +9,7 @@ import Link from "next/link"
 function Cart() {
   let isAuthenticated = true;
   let {cart,addItem,removeItem} = useContext(AppContext);
-  //const [cartA, setCartA] = useState({cart})
-  //cart = value.cart;
-  //console.log('props:'+ JSON.stringify(value));
+
   console.log(`in CART: ${JSON.stringify(cart)}`)
   
   //   problem is that cart may not be set
