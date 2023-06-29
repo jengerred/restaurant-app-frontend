@@ -57,9 +57,9 @@ if(searchQuery.length > 0){
       <CardImg
           top={true}
           style={{ height: 200 }}
-          src={
+          src={`https://real-backend-da17865723a2.herokuapp.com/${res.image.url}`
           
-            `https://real-backend-da17865723a2.herokuapp.com/`+ res.image
+          
         
           }
         />
