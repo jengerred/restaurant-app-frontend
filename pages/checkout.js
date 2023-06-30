@@ -12,7 +12,7 @@ function Checkout() {
   // get app context
   const {isAuthenticated} = useContext(AppContext);
   // isAuthenticated is passed to the cart component to display order button
- // const isAuthenticated  = true;
+
 
   // load stripe to inject into elements components
 

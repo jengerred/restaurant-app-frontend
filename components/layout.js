@@ -4,7 +4,8 @@ import Head from "next/head";
 import Link from "next/link";
 import { Container, Nav, NavItem } from "reactstrap";
 import AppContext from "./context";
-
+//import { logout } from "../components/auth";
+//import {withAuthSync} from "../components/auth";
 
 const Layout = (props) => {
   const title = "Welcome to Nextjs";
@@ -13,7 +14,13 @@ const {user, isAuthenticated, setIsAuthenticated, setRestaurant, setCart} = useC
 console.log(`User: ${user}`);
 console.log(`Is authenticated: ${isAuthenticated}`);
 
+/*
+const logout = () => {
+  setUser(null);
+  setIsAuthenticated(false);
+}
 
+*/
 
   return (
     <div>
