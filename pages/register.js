@@ -99,14 +99,14 @@ const Register = () => {
                           .then((res) => {
                             // set authed user in global context object
                             appContext.setUser(res.data.user);
-                        
-                            setLoading(false);
+                            setLoading(false);                        
                             console.log(`registered user: ${JSON.stringify(res.data)}`)
                           })
                           .catch((error) => {
                             console.log(`error in register: ${error}`)
                           //setError(error.response.data);
                             setLoading(false);
+                          alert("Sorry, you need to fill out all the fields or this user may already exist. Try signing in or register a different user");
                           });
                       }}
                     >
