@@ -6,11 +6,13 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CardSection from "./cardSection";
 import AppContext from "./context";
 import Cookies from "js-cookie";
+import { useRouter } from "next/router";
 
 
 
 
 function CheckoutForm() {
+    const router = useRouter();
   const [data, setData] = useState({
     address: "",
     city: "",
@@ -59,7 +61,7 @@ function CheckoutForm() {
      
     });
     alert("Thank you! Your order has been processed....but not really because stripe is only in test mode");
-   
+    router.push("/");
     if (!response.ok) {
       setError(response.statusText);
    
